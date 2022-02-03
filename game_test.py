@@ -5,7 +5,7 @@
 # FYI: this is to satisfy the OPTIONAL testing challenge objectives
 # ... https://github.com/prof-rossetti/intro-to-python/blob/main/exercises/rock-paper-scissors/challenges.md
 #
-
+import pytest
 from game import determine_winner
 
 
@@ -22,3 +22,4 @@ def test_determination_of_the_winner():
     assert determine_winner("scissors", "rock") == "rock"
     assert determine_winner("scissors", "paper") == "scissors"
     assert determine_winner("scissors", "scissors") == None
+
