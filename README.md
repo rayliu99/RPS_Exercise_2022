@@ -29,7 +29,7 @@ Run the rock paper scissors game:
 ```sh
 PLAYER_NAME="Jon Snow"  python game.py
 ```
-
+user input should be either "rock", "paper", or "scissors"
 ## Testing
 
 Run tests:
